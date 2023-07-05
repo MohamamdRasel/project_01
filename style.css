@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu_container {
+    background-color: rgb(32, 32, 32);
+    padding: 20px;
+    color: white;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.menus {
+    display: flex;
+}
+
+.logo-photo {
+    width: 120px;
+}
+
+.item {
+    margin-right: 10px;
+    padding-right: 7px;
+    font-size: 18px;
+}
+.item:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.banner_container {
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    border: 2px solid gray;
+    background-image: url(img/Count_Down_Timer.jpg);
+    linear-gradient
+}
+
+.banner_img {
+    width: 300px;
+}
+
+.title {
+    font-size: 55px;
+    font-weight: bold;
+}
+.description {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: red;
+}
+
+
+/*
+
+*/
+.about_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 10px;
+}
+
+.about_title {
+    text-align: center;
+    padding-top: 20px;
+}
+.about_image {
+    width: 300px;
+}
+
+/*
+
+
+*/
+.wrapper {
+    display: flex;
+    
+}
+.box {
+    width: 200px;
+    height: 200px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: black;
+    text-align: center;
+    padding:15px;
+    color: #fff;
+}
+
+.icon {
+    width: 70px;
+}
+.box_description {
+    padding: 5px;
+}
+
